@@ -5,3 +5,6 @@ git reset
 
 // git remove commit number. e.g: N = 5th
 git rebase -i HEAD-N
+
+// add to last commit ( small item is no worth to make a commit )
+git commit --amend  
