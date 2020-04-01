@@ -19,3 +19,6 @@ git commit --amend -a
 // Such problems generally occur when you execute two git commands simultaneously
 rm -f .git/index.lock
 rm .git/index.lock
+
+// all message
+git push force
