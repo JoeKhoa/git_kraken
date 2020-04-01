@@ -6,5 +6,16 @@ git reset
 // git remove commit number. e.g: N = 5th
 git rebase -i HEAD-N
 
-// add to last commit ( small item is no worth to make a commit )
-git commit --amend  
+// COLECT MANY ADD USE A COMMIT: 
+git commit -a -m'commit many add to one '
+
+// COLECT MANY COMMIT TO ONE : add to last commit ( small item is no worth to make a commit ):
+git commit --amend -a
+// write and quit
+:wq
+
+
+
+// Such problems generally occur when you execute two git commands simultaneously
+rm -f .git/index.lock
+rm .git/index.lock
