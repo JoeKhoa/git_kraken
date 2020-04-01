@@ -1,2 +1,7 @@
 C:/Users/Lilti/Documents/Git_Kraken/git_kraken_test
 
+git rm -cached a_file.text
+git reset
+
+// git remove commit number. e.g: N = 5th
+git rebase -i HEAD-N
